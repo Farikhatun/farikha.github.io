@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wedding.</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <!-- navbar -->
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow"
+    >
+      <a
+        class="navbar-brand text-nav"
+        style="font-weight: bolder; font-size: 1.5em"
+        href="#"
+        >Wedding.</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav mr-auto"
+          style="
+            font-weight: bolder;
+            font-size: 0.8em;
+            text-transform: uppercase;
+          "
+        >
+          <li class="nav-item">
+            <a class="nav-link text-nav" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nav" href="gallery.html">gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nav" href="blog.html">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nav" href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+        <div class="container col-md-12 text-center mt-7 mb-7">
+            <h1>✨Place Order✨</h1>
+        </div>
+
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter Email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="textName"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="textName">Telephone</label>
+            <input
+              type="text"
+              class="form-control"
+              id="textName"
+              placeholder="Input Your Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="textName">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="textName"
+              placeholder="Input Your Address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="datepicker">Booking date</label>
+            <input id="datepicker" placeholder="Select date" />
+          </div>
+          <button type="submit" class="btn btn-success col-12 mb-7">Register</button>
+        </form>
+      </div>
+    </main>
+
+    <footer
+      class="text-center text-light p-5"
+      style="background-color: #476042"
+    >
+      <h1 class="text-nav"><b> Wedding.</b></h1>
+      <div class="my-4 text-nav">
+        <a href="index.html" class="text-white mx-4">HOME</a
+        ><a href="gallery.html" class="text-white mx-4">GALLERY</a
+        ><a href="#" class="text-white mx-4">BLOG</a>
+        <a href="contact.html" class="text-white mx-4">CONTACT</a
+        ><a href="#" class="text-white mx-4">BOOKING</a>
+      </div>
+      <div class="d-flex justify-content-center mt-3 mb-5">
+        <div class="rounded-i mx-2"></div>
+        <div class="rounded-i mx-2"></div>
+        <div class="rounded-i mx-2"></div>
+      </div>
+
+      <p style="margin-top: 10vh; opacity: 0.5">
+        <i>Copyright &copy; 2022 All rights reserved &nbsp; </i>| &nbsp;<i>
+          Made with Love</i
+        >
+      </p>
+    </footer>
+    <script>
+       $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+    </script>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
